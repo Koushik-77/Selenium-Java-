@@ -30,8 +30,8 @@ public class Ajio {
             }
         }
         Thread.sleep(2000);
-        driver.findElement(By.xpath("/html/body/div/div[2]/div[1]/form/div/div[1]/div/input")).sendKeys("pullurusaketh@gmail.com");
-        driver.findElement(By.xpath("/html/body/div/div[2]/div[1]/form/div/div[2]/div/input")).sendKeys("saketh@2006");
+        driver.findElement(By.xpath("/html/body/div/div[2]/div[1]/form/div/div[1]/div/input")).sendKeys("example@gmail.com");
+        driver.findElement(By.xpath("/html/body/div/div[2]/div[1]/form/div/div[2]/div/input")).sendKeys("example@2006");
         Thread.sleep(2000);
         driver.findElement(By.xpath("/html/body/div/div[2]/div[1]/form/div/div[4]/label[2]/input")).click();
         Thread.sleep(2000);
