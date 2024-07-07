@@ -10,7 +10,6 @@ import java.awt.event.KeyEvent;
 
 public class ImgDownload {
     public static void main(String[] args) throws AWTException, InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Saket\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
