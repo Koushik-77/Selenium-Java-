@@ -20,10 +20,9 @@ public class Myntra {
         Thread.sleep(30000);
         driver.findElement(By.className("submitBottomOption")).click();
         Thread.sleep(2000);
-        String otp="0000";
-        driver.findElement(By.name("otp0")).sendKeys(String.valueOf(otp.charAt(0)));
-        driver.findElement(By.name("otp1")).sendKeys(String.valueOf(otp.charAt(1)));
-        driver.findElement(By.name("otp2")).sendKeys(String.valueOf(otp.charAt(2)));
-        driver.findElement(By.name("otp3")).sendKeys(String.valueOf(otp.charAt(3)));
+        driver.findElement(By.name("otp0")).sendKeys("0");
+        driver.findElement(By.name("otp1")).sendKeys("1");
+        driver.findElement(By.name("otp2")).sendKeys("2");
+        driver.findElement(By.name("otp3")).sendKeys("3");
     }
 }
