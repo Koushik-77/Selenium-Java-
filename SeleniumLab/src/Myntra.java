@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class Myntra {
     public static void main(String[] args) throws InterruptedException {
-        Scanner sc=new Scanner(System.in);
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
