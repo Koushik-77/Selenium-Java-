@@ -24,8 +24,6 @@ public class Popup {
             Thread.sleep(2000);
         } catch (Exception e) {
             System.out.println("An error occurred: " + e.getMessage());
-        } finally {
-            driver.quit();
         }
     }
 }
