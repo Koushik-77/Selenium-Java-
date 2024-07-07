@@ -14,7 +14,7 @@ public class WordToPdf {
         driver.manage().deleteAllCookies();
         driver.get("https://www.ilovepdf.com/word_to_pdf");
         Clipboard route=Toolkit.getDefaultToolkit().getSystemClipboard();
-        StringSelection str=new StringSelection("C:\\Users\\Saket\\Downloads\\daa-unit-vii-notes.doc");
+        StringSelection str=new StringSelection("give the path of the word doc in your computer");
         route.setContents(str,null);
         Thread.sleep(2000);
         driver.findElement(By.id("pickfiles")).click();
